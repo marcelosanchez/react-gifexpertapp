@@ -6,8 +6,8 @@
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
-    "react": "^16.13.0",
-    "react-dom": "^16.13.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "react-scripts": "5.0.0",
     "web-vitals": "^2.1.4"
   },
@@ -36,6 +36,10 @@
     ]
   },
   "devDependencies": {
-    "enzyme-to-json": "^3.6.2"
+    "@testing-library/react-hooks": "^7.0.2",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "enzyme-to-json": "^3.4.4",
+    "react-test-renderer": "^16.9.0"
   }
 }

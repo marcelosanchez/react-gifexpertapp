@@ -1,12 +1,14 @@
 import React, { useState, useEffect } from 'react'
-import { useFetchGfs } from '../hooks/useFetchGifs'
+import PropTypes from 'prop-types';
+
+import { useFetchGifs } from '../hooks/useFetchGifs'
 // import { getGifs } from '../helpers/getGifs';
 import { GifGridItem } from './GifGridItem';
 
 export const GifGrid = ( { category } ) => {
 
     // const [images, setImages] = useState([])
-    const { data:images, loading } = useFetchGfs( category );
+    const { data:images, loading } = useFetchGifs( category );
     // console.log(images, loading);
 
     // getGifs();
@@ -27,4 +29,8 @@ export const GifGrid = ( { category } ) => {
             </div>
         </>
     )
+}
+
+GifGrid.propTypes = {
+    category: PropTypes.string.isRequired,
 }

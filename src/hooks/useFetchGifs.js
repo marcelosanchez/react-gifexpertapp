@@ -2,7 +2,7 @@ import { useEffect, useState } from "react"
 import getGifs from '../helpers/getGifs'
 
 // Es solo una funcion
-export const useFetchGfs = ( category ) => {
+export const useFetchGifs = ( category ) => {
     
     const [state, setState] = useState({
         data: [],

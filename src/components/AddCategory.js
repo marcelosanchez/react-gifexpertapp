@@ -6,7 +6,6 @@ export const AddCategory = ( { setCategories } ) => {
     const [inputValue, setInputValue] = useState('');  // Si no se pone nada, va como undefined
 
     const handleInputChange = ( e ) => {
-        // console.log(e.target.value)
         setInputValue(e.target.value)
     }
 
@@ -23,6 +22,7 @@ export const AddCategory = ( { setCategories } ) => {
     return (
         <>
             <form onSubmit={handleSubmit}>
+                <p>{ inputValue }</p>
                 <input 
                     type="text" 
                     value={ inputValue }
