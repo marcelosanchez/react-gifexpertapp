@@ -1,0 +1,67 @@
+:root {
+  --main-color: #623CEA;
+  --secondary-color: #FCC14A;
+  --main-background-color: #F5F5F5;
+  --secondary-background-color: #F5F5F5;
+  --main-font-family: Arial, Helvetica, sans-serif;
+  --light-border: 1px solid #f5f6f8;
+}
+
+
+* {
+  font-family: var(--main-font-family)
+}
+
+body {
+  padding: 20px;
+}
+
+input {
+  color: grey;
+  font-size: 1.2rem;
+  width: 100%;
+}
+
+.card-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.card {
+  align-content: center;
+  border: var(--light-border);
+  box-shadow: 0px 3px 5px 0px rgb(0 0 0 / 10%);
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  height: 220px;
+  margin: 5px;
+  overflow: hidden;
+  width: 300px;
+}
+
+.card p {
+  color: #4c5b68;
+  font-weight: bold;
+  margin: 0;
+  padding: 8px 10px;
+  text-align: center;
+}
+
+.card img {
+  display: block;
+  height: auto;
+  object-fit: cover;
+  max-width: 100%;
+  max-height: 185px;
+  width: auto;
+}
+
+.elipsis-one-line {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

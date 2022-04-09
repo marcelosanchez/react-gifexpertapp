@@ -1,0 +1,8 @@
+._gifExpertApp__title {
+    color: var(--main-color);
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    margin-top: 10px;
+    text-align: center;
+}

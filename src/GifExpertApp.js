@@ -13,11 +13,11 @@ const GifExpertApp = ({ defaultCategories = [] }) => {
     // };
 
     return <>
-        <h2>GifExpertApp</h2>
+        <h2 className="_gifExpertApp__title">GifExpert App</h2>
         <AddCategory setCategories = { setCategories }/>
-        <hr />
+        
 
-        <ol>
+        <ol className='_addCategory__gifGridContainer'>
             {
                 categories.map( category => 
                         // <li key={ category }>{ category }</li>

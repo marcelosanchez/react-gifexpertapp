@@ -21,11 +21,14 @@ export const AddCategory = ( { setCategories } ) => {
 
     return (
         <>
-            <form onSubmit={handleSubmit}>
-                <p>{ inputValue }</p>
+            <form 
+                className="_addCategory__form"
+                onSubmit={handleSubmit}>
                 <input 
                     type="text" 
                     value={ inputValue }
+                    className="_addCategory__input"
+                    placeholder="Add a category"
                     onChange={ handleInputChange }
                 />
             </form>
