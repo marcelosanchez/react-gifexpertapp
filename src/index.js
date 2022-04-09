@@ -13,6 +13,3 @@ ReactDOM.render(
   <GifExpertApp />,
   document.getElementById('root')
 );
-
-// Tarea
-// Crear componente GifExpertApp
