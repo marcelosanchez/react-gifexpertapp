@@ -32,7 +32,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://marcelosanchez.github.io/react-gifexpertapp/)
 
 I know that there are many pages to search for gifs on the internet, but I decided to create my own using the Giphy API and the knowledge I have in React JS.
 
