@@ -57,7 +57,7 @@ The technologies I use to create my application are:
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+Before you can run the project on your local server you need to make sure you have npm.
 * npm
   ```sh
   npm install npm@latest -g
@@ -65,7 +65,7 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+_To install and configure the application you must ensure that you clone the repository and have a Giphy key._
 
 1. Get a free API Key at [https://developers.giphy.com/](https://developers.giphy.com/)
 2. Clone the repo
