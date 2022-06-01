@@ -20,7 +20,7 @@
   <p align="center">
     An awesome app to search Gifs, using the Giphy API, built with ReactJS.
     <br />
-    <a href="https://marcelosanchez.github.io/react-gifexpertapp/">View Demo</a>
+    <a href="https://gif-expert-app-ms.vercel.app/">View Demo</a>
     ·
     <a href="https://github.com/marcelosanchez/react-gifexpertapp/issues">Report Bug</a>
     ·
